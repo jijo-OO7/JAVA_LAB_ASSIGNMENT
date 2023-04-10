@@ -23,7 +23,7 @@ class railwayticket{
         }
     }
     void cancelticket(){
-        System.out.println("enter name of the candidate whose ticket you want to cancel");
+        System.out.println("Enter name of candidate whose name you want to be cancelled::");
         Scanner in=new Scanner(System.in);
         int index=-1;
         String name=in.next();
